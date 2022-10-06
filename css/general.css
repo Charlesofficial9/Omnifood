@@ -31,7 +31,9 @@ Paragraph default: 1.6
 
 03 SHADOWS
 
-04 BORDER RADIOUS: default 9px
+04 BORDER RADIOUS 
+default: 9px
+medium: 12px
 
 05 WHITESPACE
 
@@ -140,7 +142,8 @@ body {
   border-radius: 9px;
 
   /* put transition on the original state */
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
 }
 
 .btn--full:link,
@@ -171,4 +174,8 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+strong {
+  font-weight: 600;
 }
